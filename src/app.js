@@ -12,7 +12,7 @@ const app = async () => {
     };
     await connection(addMovie, newMovie);
   } else if (command === "list"){
-      await connection(listMovies)
+      await connection(listMovies);
   }
 };
 
